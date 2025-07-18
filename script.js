@@ -1,12 +1,8 @@
-//your JS code here. If required.
 document.getElementById("enterBtn").addEventListener("click", () => {
-      const statusElement = document.getElementById("status");
+      const p = document.getElementById("status");
 
-      // Create a new h1 element
       const h1 = document.createElement("h1");
-      h1.id = "status"; // Maintain the same ID
+      h1.id = "status";
       h1.textContent = "Entered Metaverse";
 
-      // Replace the <p> element with the new <h1> element
-      statusElement.replaceWith(h1);
-    });
+      p.replaceWith(h1);
